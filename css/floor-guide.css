@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+.floor-bg {
+  background-color: #f5f5f5;
+  padding: 50px 0 70px 0;
+}
+
+.guide-flex-outer {
+  width: 850px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.guide-flex-left {
+  width: 45%;
+  text-align: center;
+}
+
+.guide-flex-left img {
+  max-width: 80%;
+}
+
+.f1-left img {
+  max-width: 60%;
+}
+
+.guide-flex-right {
+  width: 45%;
+}
+
+.guide-flex-left h2 {
+  color: #B48C56;
+  font-family: 'Montserrat';
+  font-size: 40px;
+  text-align: left;
+}
+
+.floor-text {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.guide-flex-right h2 {
+  color: #B48C56;
+  font-family: 'Montserrat';
+  font-size: 25px;
+}
+
+.floor-subtext {
+  margin: 10px 0;
+}
+
+.right-flex-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-img {
+  width: 40%;
+}
+
+.right-img img {
+  width: 100%;
+}
+
+.right-text {
+  width: 55%;
+}
+
+.more-btn {
+  display: block;
+  font-weight: bold;
+  border: 1px solid #b28850;
+  margin: 20px auto auto;
+  position: relative;
+  width: 200px;
+}
+
+.more-btn a {
+  display: block;
+  padding: 4px 20px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #b28850;
+  font-family: 'Montserrat';
+  transition: all 0.5s;
+}
+
+.more-btn a:hover>span {
+  right: 10px;
+}
+
+.more-btn a:hover {
+  background-color: #b28850;
+  color: #fff;
+  opacity: 1;
+}
+
+.border {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #b28850;
+  margin: 20px 0;
+}
+
+.lesson {
+  background-color: #87A589;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 5px;
+  width: 4rem;
+  text-align: center;
+}
+
+.counseling {
+  background-color: #CC90A5;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  width: 6rem;
+}
+
+.event {
+  background-color: #a3a3a3;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 5px;
+  width: 8.3rem;
+  white-space: nowrap;
+}
+
+.shopping {
+  background-color: #B3D4FC;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin: 0 5px 0 0;
+  width: 5rem;
+  display: inline;
+}
+
+.cafe {
+  background-color: #CCBB76;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 10px;
+  width: 2.5rem;
+  display: inline;
+}
+
+.hair {
+  background-color: #9E7B97;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 5px;
+  width: 7.3rem;
+  white-space: nowrap;
+}
+
+.photo {
+  background-color: #9398BB;
+  color: #fff;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 5px;
+  width: 7rem;
+  white-space: nowrap;
+}
+
+.esthetic {
+  background-color: #B08475;
+  color: #f5f5f5;
+  font-family: 'Montserrat';
+  padding: 0 8px;
+  margin-bottom: 5px;
+  width: 4.3rem;
+}
+
+.border-sp {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+  .guide-flex-outer {
+    width: 85%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .border-sp {
+    display: block;
+  }
+
+  .guide-flex-left {
+    width: 100%;
+  }
+
+  .guide-flex-left h2 {
+    font-size: 30px;
+  }
+
+  .guide-flex-right {
+    width: 100%;
+  }
+
+  .guide-flex-right h2 {
+    font-size: 20px;
+  }
+
+  .right-img {
+    width: 20%;
+  }
+
+  .right-text {
+    width: 75%;
+  }
+
+  .lesson,
+  .counseling,
+  .event,
+  .hair,
+  .photo,
+  .esthetic,
+  .shopping {
+    display: inline;
+  }
+
+  .shopping {
+    margin-right: 0;
+  }
+
+  .more-btn {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+}
